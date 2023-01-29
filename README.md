@@ -5,7 +5,7 @@ Formulas de tableau
 
 2. Año Anterior = {FIXED : SUM(IF YEAR([Order Date])= {MAX(YEAR([Order Date]))} THEN [Sales] END ) }  
 
-Otra forma es la siguiente:  
+**Otra forma es la siguiente:**  
    1. craemos la columna de fecha reciente = { MAX([Order Date])}
    2. fecha Año Anterior = DATEADD('year',-1, [fecha reciente])
    3. Jan Fecha reciente = DATETRUNC('year',[fecha reciente])
