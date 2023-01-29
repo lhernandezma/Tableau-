@@ -45,6 +45,13 @@ Formulas de tableau
 10. 9. Is dale = [Date Dalayed]<0
 
 
+## Calcular el año hasta la fecha
+1. crear parametro
+2. YTD sales = INT(YEAR([Order Date]) = YEAR([Salect a Date]) and [Order Date] <=  [Salect a Date]) * [sales]
+3. prior YTD sales =INT(YEAR([Order Date]) = YEAR([Salect a Date])-1 and [Order Date] <=  DATEADD('year',-1,[Salect a Date]))*[sales]
+
+
+
   
   
  
