@@ -37,6 +37,12 @@ Formulas de tableau
 2.  Mes Numero = DATEPART('month',[Order Date])
 3.  primer dia del mes completo con su año = DATETRUNC('month'    , [Order Date])
 4.  Año = DATETRUNC('year', [Order Date])
+5. Agregar dias = DATEADD('day',3, [Order Date]) Agrega 3 dias a la fecha
+6. Dias Transcurridos entre fechas = DATEDIFF('day', [Order Date], [Ship Date])
+7. horas transcurridas entre fechas = DATEDIFF('hour', [Order Date], [Ship Date])
+8. Date Daleyed = DIFF('day', [Ship Date], [Expected ship date])
+9. Creo Week days  = DATEPART('weekday', [Order Date])
+10. 9. Is dale = [Date Dalayed]<0
 
 
   
