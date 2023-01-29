@@ -31,6 +31,8 @@ Formulas de tableau
   9. Ventas D ferencia D/D% = [Ventas Diferencia D/D] / SUM([ventas dia anterior])
   10. Dar formato a % +0.00%;-0.00%
   11. color pos/ neg = SIGN([Sales D/D]) 
+
+
   
   
  
