@@ -32,6 +32,12 @@ Formulas de tableau
   10. Dar formato a % +0.00%;-0.00%
   11. color pos/ neg = SIGN([Sales D/D]) 
 
+## Date function:
+1.  Nombre del Mes = DATENAME('month', [Order Date])
+2.  Mes Numero = DATEPART('month',[Order Date])
+3.  primer dia del mes completo con su año = DATETRUNC('month'    , [Order Date])
+4.  Año = DATETRUNC('year', [Order Date])
+
 
   
   
